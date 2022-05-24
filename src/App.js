@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>IronContacts</h1>
+      <h1 class="titulo">IronContacts</h1>
       <div class = "botones">
       <button onClick={handleAddRandomContact}>Add Random Contact</button>
       <button onClick={handleByName}>Sort by name</button>
